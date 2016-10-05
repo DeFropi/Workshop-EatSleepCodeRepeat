@@ -5,11 +5,7 @@
     {
         public CheckingAccount CounterAccount { get; set; }
 
-        public Transfer(CheckingAccount acct1, CheckingAccount acct2, Money m)
-        {
-        }
-
-        public Transfer(SavingsAccount acct1, CheckingAccount acct2, Money m)
+        public Transfer(Accounts acct1, Accounts acct2, Money m)
         {
         }
     }
