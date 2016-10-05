@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 namespace eu.sig.training.ch04.v1
 {
     public class CheckingAccount : Accounts
