@@ -10,6 +10,7 @@ namespace Lab1
     {
         public int Multiply(int valueLeft, int valueRight)
         {
+            //Hoi
             return valueLeft * valueRight;
         }
     }

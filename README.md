@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0fcdf8l0j8hlkm85?svg=true)](https://ci.appveyor.com/project/Jochem/workshop-eatsleepcoderepeat)
+
 # Workshop Eat Sleep Code Repeat
 * Sign in to GitHub (create an account if neccesary)
 * Fork this repository to your own account.
