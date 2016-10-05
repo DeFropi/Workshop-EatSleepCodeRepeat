@@ -3,6 +3,7 @@ using System.Drawing;
 
 namespace eu.sig.training.ch05.boardpanel.v1
 {
+ 
     public class BoardPanel
     {
         // tag::render[]
@@ -16,19 +17,19 @@ namespace eu.sig.training.ch05.boardpanel.v1
         /// <param name="y">The y position to start drawing.</param>
         /// <param name="w">The width of this square (in pixels.)</param>
         /// <param name="h">The height of this square (in pixels.)</param>
-        private void Render(Square square, Graphics g, int x, int y, int w, int h)
+        private void Render(Square square, Graphics g, Rectangle r)
         {
-            square.Sprite.Draw(g, x, y, w, h);
+            square.Sprite.Draw(g, r);
             foreach (Unit unit in square.Occupants)
             {
-                unit.Sprite.Draw(g, x, y, w, h);
+                unit.Sprite.Draw(g, r);
             }
         }
         // end::render[]
 
         private class Sprite
         {
-            public void Draw(Graphics g, int x, int y, int w, int h)
+            public void Draw(Graphics g, Rectangle r)
             {
 
             }
